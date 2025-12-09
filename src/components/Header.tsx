@@ -6,7 +6,6 @@ import {
   SheetContent,
   SheetTrigger
 } from '@/components/ui/sheet';
-import { Link } from 'react-router-dom';
 
 interface HeaderProps {
   isFixed?: boolean;
@@ -38,10 +37,9 @@ const Header = ({ isFixed = false, showNavigation = true }: HeaderProps) => {
             <a href="#benefits" className="text-white font-medium hover:underline">Benefícios</a>
 
             <Button className="group flex items-center gap-2 bg-white text-[#6A03EB] font-semibold border border-[#6A03EB] rounded-full px-4 py-2 shadow-md hover:bg-white hover:border-[#5000c5] hover:shadow-lg transition-all duration-300 hover:scale-105" asChild>
-              <Link to="/countdown">
-                
+              <a href="https://app.ajudaqi.com.br/login" target="_blank" rel="noopener noreferrer">
                 Começar agora
-              </Link>
+              </a>
             </Button>
           </nav>
         )}
@@ -67,10 +65,9 @@ const Header = ({ isFixed = false, showNavigation = true }: HeaderProps) => {
                 </a>
 
                 <Button className="group flex items-center gap-2 bg-white text-[#6A03EB] font-semibold border border-[#6A03EB] rounded-full px-4 py-2 shadow-md hover:bg-white hover:border-[#5000c5] hover:shadow-lg transition-all duration-300 hover:scale-105 mt-4" asChild>
-                  <Link to="/countdown">
-                    
+                  <a href="https://app.ajudaqi.com.br/login" target="_blank" rel="noopener noreferrer">
                     Começar agora
-                  </Link>
+                  </a>
                 </Button>
               </nav>
             </SheetContent>

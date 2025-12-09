@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -16,8 +15,8 @@ const Hero = () => {
             </p>
             <div className="flex flex-wrap gap-4">
               {/* Botão "Começar agora" sem ícone */}
-              <Button className="group flex items-center gap-2 bg-white text-[#6A03EB] font-semibold border border-[#6A03EB] rounded-full px-4 py-2 shadow-md hover:border-[#5000c5] hover:shadow-lg transition-all duration-300 hover:scale-105">
-                <Link to="/countdown">Começar agora</Link>
+              <Button className="group flex items-center gap-2 bg-white text-[#6A03EB] font-semibold border border-[#6A03EB] rounded-full px-4 py-2 shadow-md hover:border-[#5000c5] hover:shadow-lg transition-all duration-300 hover:scale-105" asChild>
+                <a href="https://app.ajudaqi.com.br/login" target="_blank" rel="noopener noreferrer">Começar agora</a>
               </Button>
 
               {/* Botão "Saiba mais" sem ícone */}

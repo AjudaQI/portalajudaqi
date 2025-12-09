@@ -1,6 +1,5 @@
 import React from 'react';
 import { Separator } from '@/components/ui/separator';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -20,7 +19,7 @@ const Footer = () => {
               <li><a href="#" className="text-gray-600 hover:text-ajudaqi-purple">Home</a></li>
               <li><a href="#tools" className="text-gray-600 hover:text-ajudaqi-purple">Ferramentas</a></li>
               <li><a href="#benefits" className="text-gray-600 hover:text-ajudaqi-purple">Benefícios</a></li>
-              <li><Link to="/countdown" className="text-gray-600 hover:text-ajudaqi-purple">Começar agora</Link></li>
+              <li><a href="https://app.ajudaqi.com.br/login" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-ajudaqi-purple">Começar agora</a></li>
             </ul>
           </div>
           
