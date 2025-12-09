@@ -20,7 +20,7 @@ const Header = ({ isFixed = false, showNavigation = true }: HeaderProps) => {
         {/* Logo e título */}
         <a href="/" className="flex items-center gap-2">
           <img 
-            src="/images/Gemini_Generated_Image_lc5ttlc5ttlc5ttl.png" 
+            src="/images/Gemini_Generated_Image_cxzmnqcxzmnqcxzm.png" 
             alt="AjudaQi Logo" 
             className="h-10 w-auto transition-transform hover:scale-105"
           />
